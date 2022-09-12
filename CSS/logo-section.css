@@ -24,7 +24,7 @@
 
 .underline {
   width: 25px;
-  height: 2px;
+  height: 1px;
   background: var(--Primary-Color);
 }
 
