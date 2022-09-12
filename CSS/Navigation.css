@@ -1,0 +1,11 @@
+@import url("./variables.css");
+
+#mobile-nav i {
+  font-size: 3em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  left: 25px;
+  top: 15px;
+  color: var(--Secondary-Color);
+}
