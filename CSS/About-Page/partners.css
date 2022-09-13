@@ -20,12 +20,12 @@
   grid-template-columns: repeat(3, 33.33%);
   place-items: center;
   margin-right: 0 !important;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
 .partners-img {
   width: 50%;
-  height: auto; 
+  height: auto;
   max-height: 120px;
   filter: grayscale(100%);
   cursor: pointer;
@@ -33,7 +33,7 @@
 }
 
 .partners-img:hover {
-  filter:grayscale(0);
+  filter: grayscale(0);
 }
 
 .apple {

@@ -46,7 +46,7 @@
 }
 
 @media screen and (min-width: 768px) {
- .info-box {
-  width: 60%;
- }
+  .info-box {
+    width: 60%;
+  }
 }

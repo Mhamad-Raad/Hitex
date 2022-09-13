@@ -35,7 +35,6 @@
 }
 
 .post-title {
-  margin-top: 7px;
   font-family: var(--Primary-Font);
   font-size: 1.5rem;
   color: var(--Secondary-Color);
@@ -59,12 +58,12 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 100%; 
+  bottom: 100%;
   background-color: var(--Secondary-Color);
-  opacity: .1;
+  opacity: 0.1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  transition:  0.3s ease bottom;
+  transition: 0.3s ease bottom;
   overflow: hidden;
 }
 

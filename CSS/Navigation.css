@@ -18,6 +18,7 @@
   #mobile-nav {
     display: none;
   }
+
   #desktop-nav {
     display: flex;
     justify-content: space-between;
@@ -83,4 +84,3 @@
     color: var(--Secondary-Color) !important;
   }
 }
-  
