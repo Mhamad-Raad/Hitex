@@ -1,7 +1,7 @@
 @import url(./variables.css);
 
 .welcome-about {
-  background: url(.././assets/images/Backgrounds/first-section.png) no-repeat;
+  background: url(../../assets/images/Backgrounds/first-section.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
