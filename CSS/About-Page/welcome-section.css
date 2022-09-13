@@ -1,4 +1,4 @@
-@import url("./variables.css");
+@import url(./variables.css);
 
 .welcome-about {
   background: url(.././assets/images/Backgrounds/first-section.png) no-repeat;
@@ -27,6 +27,7 @@
 .info-box {
   width: 90%;
   background-color: #fff;
+  border: 1px solid grey;
   padding: 10px;
   color: var(--Secondary-Color);
   font-family: var(--Primary-Font);

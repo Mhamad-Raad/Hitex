@@ -1,4 +1,4 @@
-@import url(variables.css);
+@import url(.././variables.css);
 
 .about-partners {
   display: flex;
@@ -19,9 +19,7 @@
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
   place-items: center;
-  margin-top: 25px;
   margin-right: 0 !important;
-
   padding-bottom: 50px; 
 }
 
@@ -42,4 +40,3 @@
   height: 30% !important;
   width: auto !important;
 }
-

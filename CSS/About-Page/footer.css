@@ -1,0 +1,26 @@
+@import url(.././variables.css);
+
+.about-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--Background-Color);
+  align-items: center;
+}
+
+.footer-img {
+  margin-top: 20px;
+  width: 50%;
+  height: 20%;
+  max-height: 120px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.footer-desc {
+  font-family: var(--Primary-Font);
+  font-size: 12px;
+  color: var(--Secondary-Color);
+  margin-top: 0;
+  margin: 10px 0;
+}
