@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TEDEX
+# Hitex
 
-> creating a fake tedex website. that show out the speakers and their informations.
+> creating a fake Hitex website. that show out the speakers and their informations.
 
 
 ## Built With

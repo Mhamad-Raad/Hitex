@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.spacer {
+  margin-top: 75px;
+}
+
+a {
+  text-decoration: none;
+}

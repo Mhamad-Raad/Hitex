@@ -1,0 +1,42 @@
+@import url(.././variables.css);
+
+.about-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--Secondary-Color);
+}
+
+.partners-title {
+  font-family: var(--Primary-Font);
+  font-size: 1.5rem;
+  color: var(--Primary-Color);
+  margin-top: 25px;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  place-items: center;
+  margin-right: 0 !important;
+  padding-bottom: 50px;
+}
+
+.partners-img {
+  width: 50%;
+  height: auto;
+  max-height: 120px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 0.3s ease filter;
+}
+
+.partners-img:hover {
+  filter: grayscale(0);
+}
+
+.apple {
+  height: 30% !important;
+  width: auto !important;
+}
