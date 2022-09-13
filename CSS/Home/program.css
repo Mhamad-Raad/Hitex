@@ -1,0 +1,65 @@
+.programs {
+  background: url(../../assets/images/Backgrounds/Partners.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.program-title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  font-family: var(--Primary-Font);
+  margin-bottom: 0;
+}
+
+.underline {
+  width: 75px;
+  height: 2px;
+  background: var(--Primary-Color);
+  margin: 20px auto;
+}
+
+.program-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(171, 171, 171, 0.208);
+  padding: 15px 15px;
+  margin: 10px 20px !important;
+  box-sizing: border-box;
+}
+
+.program-icon {
+  font-size: 40px;
+}
+
+.program-name {
+  font-size: 1.5rem;
+  color: var(--Primary-Color);
+  font-family: var(--Primary-Font);
+  margin: 0;
+  margin-left: 20px;
+}
+
+.program-desc {
+  font-size: 1rem;
+  color: var(--Background-Color);
+  font-family: var(--Primary-Font);
+  margin: 0;
+  margin-left: 20px;
+}
+
+.program-btn {
+  margin-top: 40px;
+  width: 80%;
+  height: 100px;
+  color: #fff;
+  background-color: var(--Primary-Color);
+  font-family: var(--Primary-Font);
+  font-size: 32px;
+  border: none;
+}
