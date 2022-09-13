@@ -1,0 +1,85 @@
+.speakers {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakers-title {
+  font-size: 2.5rem;
+  color: var(--Secondary-Color);
+  text-align: center;
+  margin-top: 50px;
+  font-family: var(--Primary-Font);
+  margin-bottom: 0;
+}
+
+.speaker-box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-side {
+  position: relative;
+  width: 40%;
+  max-height: 300px;
+  max-width: 400px;
+}
+
+.bg {
+  position: absolute;
+  z-index: 0;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+}
+
+.speaker-img {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  width: 85%;
+  height: 85%;
+  max-height: 120px;
+}
+
+.right-side {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.speaker-name {
+  font-family: var(--Primary-Font);
+  font-size: 1.5rem;
+  color: var(--Secondary-Color);
+  margin-top: 0;
+}
+
+.divider {
+  background-color: lightgrey;
+  width: 40px;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.speaker-proffession {
+  font-family: var(--Primary-Font);
+  font-size: 16px;
+  color: var(--Primary-Color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.speaker-desc {
+  font-family: var(--Primary-Font);
+  font-size: 14px;
+  color: grey;
+  margin: 0;
+}

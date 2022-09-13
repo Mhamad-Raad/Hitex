@@ -9,3 +9,78 @@
   top: 15px;
   color: var(--Secondary-Color);
 }
+
+#desktop-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+  #desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #desktop-nav a > img {
+    height: 75px;
+    width: 150px;
+    margin-left: 1vw;
+  }
+
+  nav ul > * {
+    display: inline;
+    cursor: pointer;
+  }
+
+  nav ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .right-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .nav-item {
+    font-family: var(--Primary-Font);
+    font-size: 1.2em;
+    color: var(--Secondary-Color);
+    height: 100%;
+    padding: 10px 20px;
+  }
+
+  .nav-item:hover {
+    background-color: var(--Secondary-Color);
+    color: #fff;
+  }
+
+  .special {
+    color: var(--Primary-Color);
+    border: 5px solid var(--Primary-Color);
+    padding: 5px 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 33px;
+  }
+
+  .special:hover {
+    background-color: var(--Primary-Color) !important;
+    color: var(--Secondary-Color) !important;
+  }
+}
+  

@@ -7,3 +7,7 @@ body {
 .spacer {
   margin-top: 75px;
 }
+
+a {
+  text-decoration: none;
+}
