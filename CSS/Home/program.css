@@ -1,9 +1,16 @@
-.programs {
+.programs-section {
   background: url(../../assets/images/Backgrounds/Partners.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   padding: 0 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.programs {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -29,7 +36,7 @@
   align-items: center;
   background-color: rgba(171, 171, 171, 0.208);
   padding: 15px 15px;
-  margin: 10px 20px !important;
+  margin: 10px 20px;
   box-sizing: border-box;
 }
 
@@ -62,4 +69,43 @@
   font-family: var(--Primary-Font);
   font-size: 32px;
   border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .programs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 2px;
+    margin-top: 50px;
+  }
+
+  .program-box {
+    flex-direction: column;
+    width: 200px;
+    margin: 0;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  .program-icon {
+    margin: 0;
+  }
+
+  .program-desc {
+    margin: 0;
+    text-align: center;
+  }
+
+  .program-name {
+    margin: 0;
+  }
+
+  .program-btn {
+    width: 25%;
+    height: 80px;
+    margin-top: 70px;
+  }
+
 }
