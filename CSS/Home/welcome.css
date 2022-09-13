@@ -52,3 +52,23 @@
   font-weight: 400;
   margin-bottom: 100px;
 }
+
+@media screen and (min-width: 768px) {
+  .welcome-home {
+    padding: 0 10%;
+  }
+
+  .greeting {
+    font-size: 3rem;
+    margin-top: 200px;
+  }
+
+  .title {
+    font-size: 6rem;
+  }
+
+  .info-box {
+    text-align: left;
+    width: 60%;
+  }
+}
