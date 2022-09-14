@@ -10,6 +10,42 @@
   color: var(--Secondary-Color);
 }
 
+.mobile-menu-bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: var(--Background-Color);
+  position: fixed;
+  z-index: 1000;
+}
+
+.mobile-menu {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px !important;
+  height: 100%;
+}
+
+.mobile-nav-item {
+  font-family: var(--Primary-Font);
+  font-size: 3em;
+  color: var(--Secondary-Color);
+  height: 100%;
+  padding: 10px 10px;
+  line-height: 100px;
+}
+
+.mobile-close-menu {
+  position: absolute;
+  top: 10;
+  right: 0;
+  font-size: 3em;
+  cursor: pointer;
+  color: var(--Secondary-Color);
+}
+
 #desktop-nav {
   display: none;
 }
