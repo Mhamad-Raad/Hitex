@@ -27,7 +27,7 @@ const obj = [
 const speakerSection = document.querySelector('.speakers');
 
 window.onload = () => {
-  for(let i = 0; i < obj.length; i += 1) {
+  for (let i = 0; i < obj.length; i += 1) {
     speakerSection.innerHTML += `
     <div class="speaker-box">
       
@@ -42,9 +42,6 @@ window.onload = () => {
       <div class="divider"></div>
       <p class="speaker-desc">${obj[i].desc}</p>
     </div>
-  </div>
-    `;
-    
+  </div>`;
   }
-
 };
