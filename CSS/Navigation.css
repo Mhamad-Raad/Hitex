@@ -32,7 +32,7 @@
   font-family: var(--Primary-Font);
   font-size: 3em;
   color: var(--Secondary-Color);
-  height: 100%;
+  width: inherit;
   padding: 10px 10px;
   line-height: 100px;
 }
