@@ -11,6 +11,9 @@
 - CSS
 - JavaScript
 
+## Live Demo
+[Live Demo Link](https://mhamad-raad.github.io/TedEx/)
+
 ## Author
 
 👤 **Author1**
@@ -22,6 +25,11 @@
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used.
+- Design made by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 Feel free to check the [issues page](../../issues/).
 
