@@ -14,6 +14,9 @@
 ## Live Demo
 [Live Demo Link](https://mhamad-raad.github.io/TedEx/)
 
+## Presentation
+for the video presentation please [click here](https://www.loom.com/share/335874fd7f2749deaceade52cafb9579) to view it on loom.
+
 ## Author
 
 👤 **Author1**
