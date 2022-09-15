@@ -73,7 +73,6 @@
 .grey-nav > p {
   font-size: 12px;
   margin-left: 10px;
-  margin: 0;
   margin-left: 20px;
 }
 
@@ -81,9 +80,8 @@
   margin-right: 50px;
 }
 
-.grey-nav > i {
+.fa-brands {
   margin-left: 8px;
-  color: #fff !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -94,7 +92,7 @@
   #desktop-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     width: 100% !important;
     margin-top: 20px;
     height: 60px;
