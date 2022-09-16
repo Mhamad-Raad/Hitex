@@ -16,8 +16,17 @@
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <a href="index.html">
+  <nav>
+  <div class="combine-nav">
+    <div class="grey-nav">
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github-alt"></i>
+      <p>English</p>
+      <p>Japanese</p>
+      <p>German</p>
+    </div>
+    <div id="desktop-nav">
+       <a href="index.html">
       <img src="./assets/images/hitex-logo.png" alt="Hitex Logo">
     </a>
 
@@ -25,17 +34,31 @@
       
       <li><a href="index.html" class="nav-item">Home</a></li>
       <li><a href="about.html" class="nav-item">About</a></li>
-      <li><a href="services.html" class="nav-item">Services</a></li>
-      <li><a href="contact.html" class="nav-item">Contact</a></li>
+      <li><a href="#" class="nav-item">Services</a></li>
+      <li><a href="#" class="nav-item">Contact</a></li>
 
-      <li><a href="contact.html" class="nav-item special">Join US</a></li>
+      <li><a href="#" class="nav-item special">Join US</a></li>
     </ul>
+    </div>
+   
+  </div>
       
   </nav>
+  <nav id="mobile-nav"> 
+    <i class="fa-sharp fa-solid fa-bars" id="mobile-nav-icon"></i>
+    <div class="mobile-menu-bg" id="mobile-menu-bg">
+      <i class="fa-solid fa-xmark" id="mobile-close-menu"></i>
+      <ul class="mobile-menu">
+        <li><a href="index.html" class="mobile-nav-item">Home</a></li>
+        <li><a href="about.html" class="mobile-nav-item">About</a></li>
+        <li><a href="#" class="mobile-nav-item">Services</a></li>
+        <li><a href="#" class="mobile-nav-item">Contact</a></li>
+        <li><a href="#" class="mobile-nav-item special">Join US</a></li>
+      </ul>
+    </div>
+  </nav>
   <section class="welcome-home">
-    <nav id="mobile-nav"> 
-      <i class="fa-sharp fa-solid fa-bars"></i>
-    </nav>
+    
 
     <p class="greeting">"Hello! Sharing world"</p>
     <h1 class="title">Hitex - 2022</h1>
@@ -90,67 +113,28 @@
     
     <div class="speakers">
 
-      <div class="speaker-box">
       
-        <div class="left-side">
-          <img src="./assets/images/Backgrounds/transparent.png" alt="" class="bg">
-          <img src="./assets/images/Speakers/Rebaz.png" alt="speaker" class="speaker-img">
-        </div>
-      
-        <div class="right-side">
-          <h2 class="speaker-name">Rebaz Farid</h2>
-          <p class="speaker-proffession">UTM Network Engineer</p>
-          <div class="divider"></div>
-          <p class="speaker-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-        </div>
-      </div>
-
-      <div class="speaker-box">
-      
-        <div class="left-side">
-          <img src="./assets/images/Backgrounds/transparent.png" alt="" class="bg">
-          <img src="./assets/images/Speakers/Siros.png" alt="speaker" class="speaker-img">
-        </div>
-      
-        <div class="right-side">
-          <h2 class="speaker-name">Siros Ali</h2>
-          <p class="speaker-proffession">UTM Software Engineer</p>
-          <div class="divider"></div>
-          <p class="speaker-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-        </div>
-      </div>
-
-      <div class="speaker-box">
-      
-        <div class="left-side">
-          <img src="./assets/images/Backgrounds/transparent.png" alt="" class="bg">
-          <img src="./assets/images/Speakers/Aland.png" alt="speaker" class="speaker-img">
-        </div>
-      
-        <div class="right-side">
-          <h2 class="speaker-name">Aland</h2>
-          <p class="speaker-proffession">Network</p>
-          <div class="divider"></div>
-          <p class="speaker-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-        </div>
-      </div>
-
-      <div class="speaker-box">
-      
-        <div class="left-side">
-          <img src="./assets/images/Backgrounds/transparent.png" alt="" class="bg">
-          <img src="./assets/images/Speakers/Zanyar.png" alt="speaker" class="speaker-img">
-        </div>
-      
-        <div class="right-side">
-          <h2 class="speaker-name">Zanyar Kurdo</h2>
-          <p class="speaker-proffession">English</p>
-          <div class="divider"></div>
-          <p class="speaker-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-        </div>
-      </div>
-  </div>
+    </div>
     <div class="spacer"></div>
   </section>
+
+  <section class="about-partners">
+    <h2 class="partners-title"> Hitex Supporters</h2>
+
+    <div class="partners">
+     <img src="./assets/images/Partners/Google.png" alt="Google Logo" class="partners-img"> 
+     <img src="./assets/images/Partners/apple.png" alt="apple Logo" class="partners-img apple">
+     <img src="./assets/images/Partners/aws.png" alt="Amazon Logo" class="partners-img">
+     <img src="./assets/images/Partners/Meta-Logo.png" alt="Meta Logo" class="partners-img">
+     <img src="./assets/images/Partners/microsoft.png" alt="Microsoft Logo" class="partners-img">
+    </div>
+   </section>
+
+   <footer class="about-footer">
+   <img alt="Hitex Logo" src="./assets/images/hitex-logo.png" class="footer-img">
+   <p class="footer-desc">Hitex 2022, @Copyrights reserved</p>
+   </footer>
+  <script src="./js/navigation.js"></script>
+  <script src="./js/speakers.js"></script>
 </body>
 </html>

@@ -17,26 +17,49 @@
   </head>
 
   <body>
-    <nav id="desktop-nav">
-      <a href="index.html">
-        <img src="./assets/images/hitex-logo.png" alt="Hitex Logo">
-      </a>
-  
-      <ul class="right-nav">
-        
-        <li><a href="index.html" class="nav-item">Home</a></li>
-        <li><a href="about.html" class="nav-item">About</a></li>
-        <li><a href="services.html" class="nav-item">Services</a></li>
-        <li><a href="contact.html" class="nav-item">Contact</a></li>
-  
-        <li><a href="contact.html" class="nav-item special">Join US</a></li>
-      </ul>
-        
+    <nav>
+      <div class="combine-nav">
+        <div class="grey-nav">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github-alt"></i>
+          <p>English</p>
+          <p>Japanese</p>
+          <p>German</p>
+        </div>
+        <div id="desktop-nav">
+           <a href="index.html">
+          <img src="./assets/images/hitex-logo.png" alt="Hitex Logo">
+        </a>
+    
+        <ul class="right-nav">
+          
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Services</a></li>
+          <li><a href="#" class="nav-item">Contact</a></li>
+    
+          <li><a href="#" class="nav-item special">Join US</a></li>
+        </ul>
+        </div>
+       
+      </div>
+          
+      </nav>
+
+    <nav id="mobile-nav"> 
+      <i class="fa-sharp fa-solid fa-bars" id="mobile-nav-icon"></i>
+      <div class="mobile-menu-bg" id="mobile-menu-bg">
+        <i class="fa-solid fa-xmark" id="mobile-close-menu"></i>
+        <ul class="mobile-menu">
+          <li><a href="index.html" class="mobile-nav-item">Home</a></li>
+          <li><a href="about.html" class="mobile-nav-item">About</a></li>
+          <li><a href="#" class="mobile-nav-item">Services</a></li>
+          <li><a href="#" class="mobile-nav-item">Contact</a></li>
+          <li><a href="#" class="mobile-nav-item special">Join US</a></li>
+        </ul>
+      </div>
     </nav>
     <section class="welcome-about">
-      <nav id="mobile-nav"> 
-        <i class="fa-sharp fa-solid fa-bars"></i>
-      </nav>
       <p class="greeting">"Hello! Sharing world"</p>
       <h1 class="about-title">Hitex - 2022</h1>
       <div class="info-box">
@@ -94,6 +117,6 @@
     <img alt="Hitex Logo" src="./assets/images/hitex-logo.png" class="footer-img">
     <p class="footer-desc">Hitex 2022, @Copyrights reserved</p>
     </footer>
-
+<script src="./js/navigation.js"></script>
   </body>
 </html>
