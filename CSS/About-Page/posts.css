@@ -59,7 +59,7 @@
   left: 0;
   right: 0;
   bottom: 100%;
-  background-color: var(--Secondary-Color);
+  background-color: var(--Posts-Hover);
   opacity: 0.1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
